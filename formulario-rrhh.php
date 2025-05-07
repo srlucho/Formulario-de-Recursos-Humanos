@@ -180,7 +180,7 @@ function registrar_cpt_postulaciones_rrhh() {
         'singular_name'      => 'Postulación RRHH',
         'menu_name'          => 'Postulaciones RRHH',
         'name_admin_bar'     => 'Postulación RRHH',
-//      'add_new'            => '', // Dejamos vacío para que no aparezca el botón "Añadir Nueva"
+//      'add_new'            => '', // Para que no se muestre el boton, se elimina con estilos más abajo.
         'add_new_item'       => '',
         'new_item'           => '',
         'edit_item'          => 'Editar Postulación',
@@ -204,7 +204,7 @@ function registrar_cpt_postulaciones_rrhh() {
         'hierarchical'       => false,
         'menu_position'      => null,
         'supports'           => array('title', 'custom-fields'),
-        'show_in_admin_bar'  => false, // Ocultar en la barra de administración
+        'show_in_admin_bar'  => false, // Oculta en la barra de administración
         'can_export'         => true,
     );
 
